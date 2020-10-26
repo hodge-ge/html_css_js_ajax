@@ -1,0 +1,24 @@
+<!--选择id 独一无二-->
+#intro {
+   color:red;
+   background-color: gray;
+}
+<!--选择标签-->
+h1{
+    color:royalblue;
+    background-color: gray;
+}
+
+p{
+    color:chartreuse;
+}
+
+<!--选择class 不要求唯一性-->
+.box1{
+    color:red;
+}
+
+.container{
+    width: 40%;
+    margin: auto;
+}

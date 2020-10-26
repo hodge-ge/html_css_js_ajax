@@ -42,3 +42,27 @@ p {
 }
 
 ```
+css文件的写法：
+样式规则包含三部分：选择器（selector），属性（property）和值（value）。
+声明块包含一个或多个用分号分隔的声明。 每个声明都包含一个属性名称和一个值，并用冒号分隔。
+
+- 列：
+p {
+   color: red;
+   font-size:130%;
+}
+- id and class Selectors（id和class选择器）
+id选择器允许您设置具有id属性的HTML元素的样式，无论它们在文档中的位置如何。
+```html
+html:
+<div id="intro">
+   <p> This paragraph is in the intro section.（此段落在简介部分。）</p>
+</div>
+<p> This paragraph is not in the intro section.（此段落不在简介部分中）</p>
+---
+css:
+#intro {
+   color: white;
+   background-color: gray;
+}
+```

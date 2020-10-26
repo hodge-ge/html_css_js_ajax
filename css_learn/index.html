@@ -4,11 +4,37 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--这是外部css文件-->
+    <link rel="stylesheet" href="./css/style.css">
     <title>CSS crash</title>
+   <!-- 这是内嵌式的css
+   <style>
+        h1{
+            color:cyan;
+        }
+        p{
+            color:chartreuse;
+        }
+    </style>
+    -->
 </head>
 
+
 <body>
-    <h1>hello</h1>
-    <p>正文第一段</p>
+    <div class="container">
+        <h1>hello no box</h1>
+        <div class="box1">
+            <h1>hello in box</h1>
+            <p>正文第一段</p>
+        </div>
+        
+        <div id="intro">
+            <p> This paragraph is in the intro section.（此段落在简介部分。）</p>
+        </div>
+        <br>
+        <p> This paragraph is not in the intro section.（此段落不在简介部分中）</p>
+    </div>
+
+
 </body>
-</html>>
+</html>
