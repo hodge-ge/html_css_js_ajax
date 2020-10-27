@@ -1,24 +1,80 @@
-<!--选择id 独一无二-->
+body{
+    background-color: bisque;
+    font-size : 30px;
+    font-weight: bold;
+    line-height: 1.5cm;
+}
+
+<!--选择id-->
 #intro {
-   color:red;
+   color: white;
    background-color: gray;
 }
 <!--选择标签-->
 h1{
-    color:royalblue;
+    color:re;
     background-color: gray;
 }
 
-p{
-    color:chartreuse;
-}
-
-<!--选择class 不要求唯一性-->
+<!--选择class-->
 .box1{
     color:red;
+
 }
 
-.container{
-    width: 40%;
-    margin: auto;
+<!--选择class-->
+.box2{
+    color:greenyellow;
+    font-size: 2ps;
+    padding: 20px;
+    margin-top: 20px 0px;
+}
+
+
+.box1 p{
+    color:chartreuse;
+    border: 5px blue solid;
+    border-right: 5px red solid;
+    border-left: 8px blue solid;
+    border-top:10px green dotted;
+    border-bottom: 5px firebrick double;
+    border-bottom-style: dash;
+    font-style: italic;
+    font-weight: 1000;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    word-spacing: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin-top: 20px;
+
+    border-radius: 20px;
+
+}
+
+.box2 p{
+    color:royalblue;
+    border:10px dotted red;
+    
+
+}
+
+.first { 
+    font-size: 150%;
+    color:red;
+    margin: 2px;
+}
+
+#intro .first em {
+   color: pink; 
+   background-color:gray;
+}
+
+.list li{
+    background-color:red;
+    list-style-image: ;
 }
