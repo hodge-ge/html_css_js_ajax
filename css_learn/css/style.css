@@ -5,6 +5,29 @@ body{
     line-height: 1.5cm;
 }
 
+a{
+    text-decoration:none;
+    color:mediumspringgreen;
+}
+a:hover{
+    color: #2a6496;
+}
+a:visited{
+    color: red;
+}
+
+button{
+    background-color: #2F4F4F;
+    color:whitesmoke;
+    padding: 10px 5px;
+}
+button:hover{
+    background-color: red;
+}
+
+button:active{
+    background-color: whitesmoke;
+}
 <!--选择id-->
 #intro {
    color: white;
@@ -28,6 +51,7 @@ h1{
     font-size: 2ps;
     padding: 20px;
     margin-top: 20px 0px;
+    
 }
 
 
@@ -75,6 +99,12 @@ h1{
 }
 
 .list li{
-    background-color:red;
-    list-style-image: ;
+    /*background-color:red;*/
+    list-style-image:url('../image/c.png');
+    /*list-style: square;*/
+    <!--需要调整大小-->
+}
+
+.box2 h1{
+    text-align: center;
 }
