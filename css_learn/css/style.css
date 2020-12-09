@@ -5,6 +5,36 @@ body{
     line-height: 1.5cm;
 }
 
+.clearfix{
+    clear: both;
+}
+
+
+.position-box{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+
+#fixed{
+    position: fixed;
+    right:0;
+    bottom: 200px;
+
+}
+
+.position-box h1{
+    position: absolute;
+    left:40px;
+    top:50px;
+}
+
+.position-box h2{
+    position: absolute;
+    right:40px;
+}
+
 a{
     text-decoration:none;
     color:mediumspringgreen;
@@ -13,7 +43,7 @@ a:hover{
     color: #2a6496;
 }
 a:visited{
-    color: red;
+    color:violet;
 }
 
 button{
@@ -22,11 +52,15 @@ button{
     padding: 10px 5px;
 }
 button:hover{
-    background-color: red;
+    background-color:blue;
 }
 
 button:active{
     background-color: whitesmoke;
+}
+
+button:visited{
+    background-color:red;
 }
 <!--选择id-->
 #intro {
@@ -46,12 +80,18 @@ h1{
 }
 
 <!--选择class-->
-.box2{
-    color:greenyellow;
-    font-size: 2ps;
+.container{
+    position: absolute;
+}
+.box2 {
+    color:red;
+    border-radius: 35px;
+    font-size: 2px;
     padding: 20px;
-    margin-top: 20px 0px;
-    
+    margin-top: 20px 0;
+    position: absolute;
+    top:10px;
+    left:10px;
 }
 
 
@@ -73,15 +113,13 @@ h1{
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
-
     margin-top: 20px;
-
     border-radius: 20px;
 
 }
 
 .box2 p{
-    color:royalblue;
+    color:red;
     border:10px dotted red;
     
 
@@ -102,9 +140,46 @@ h1{
     /*background-color:red;*/
     list-style-image:url('../image/c.png');
     /*list-style: square;*/
-    <!--需要调整大小-->
+    
 }
-
+<!--需要调整大小-->
 .box2 h1{
     text-align: center;
 }
+
+.block{
+    float:left;
+    width:33.3%;
+    border:1px solid red;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+    border:1px solid red;
+    box-sizing: border-box;
+
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    border:1px solid green;
+    box-sizing: border-box;/*解决加边框后的自动换行*/
+}
+
+
+.list2 li:nth-child(even){
+    background-color: gray;
+}
+.list2 li:first-child{
+    background-color: red;
+}
+.list2 li:last-child{
+    background-color: blue;
+} 
+
+.list2 li:nth-child(3){
+    background-color: blueviolet;
+}
+
