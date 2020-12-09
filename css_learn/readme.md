@@ -66,3 +66,9 @@ css:
    background-color: gray;
 }
 ```
+
+定位：
+静态
+想对
+绝对
+固定
