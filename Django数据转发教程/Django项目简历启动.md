@@ -60,3 +60,7 @@
 - 发送请求到mysite下urls，发现请求的是根路径，跳转到另外的app下data_fo。 到data_fo下面的urls，检索地址，调用views.py下的home函数。
 - 接下来到views.py函数，找到home函数，render函数把home.html内容展示到请求页面。
 
+
+
+问题
+
