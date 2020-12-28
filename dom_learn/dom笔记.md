@@ -54,8 +54,6 @@ var title=document.querySelector("h1"); 可以变量存储
 
 title.style.backgroundColor="green";
 
-
-
 修改颜色：
 
 ![image-20201216154025603](https://raw.githubusercontent.com/hodge-ge/imgbed/main/20201216154029.png)
