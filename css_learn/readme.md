@@ -15,6 +15,7 @@
     <p style="color:white; background-color:gray;">
     This is an example of inline styling. 
 </p>
+    ```
 - 嵌入式
 在HTML页面head的<style>元素内定义
 ```html
@@ -69,6 +70,7 @@ css:
 
 定位：
 静态
-想对
+相对
 绝对
 固定
+
